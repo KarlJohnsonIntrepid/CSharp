@@ -17,6 +17,8 @@ namespace BoxingAndUnboxing
         {
             GenericClass.Run();
 
+            GenericClass.Run();
+
             Console.ReadLine();
         }
     }
