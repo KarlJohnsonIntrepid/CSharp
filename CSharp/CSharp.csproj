@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -61,6 +61,7 @@
     <Compile Include="2.1 Types\Enums.cs" />
     <Compile Include="2.1 Types\ExtensionMethods.cs" />
     <Compile Include="2.1 Types\GenericClass.cs" />
+    <Compile Include="2.1 Types\Indexers.cs" />
     <Compile Include="2.1 Types\OverrideMethods.cs" />
     <Compile Include="2.1 Types\ValueTypes.cs" />
     <Compile Include="2.2 Consume Types\BoxingAndUnboxing.cs" />
@@ -68,6 +69,12 @@
     <Compile Include="2.2 Consume Types\DynamicTypes.cs" />
     <Compile Include="2.3 Encapsulation\AccessModifiers.cs" />
     <Compile Include="2.3 Encapsulation\ExplictInterfaceImplementation.cs" />
+    <Compile Include="2.4 Class Hierachy\AbstractClasses.cs" />
+    <Compile Include="2.4 Class Hierachy\IComparable.cs" />
+    <Compile Include="2.4 Class Hierachy\IDisposable.cs" />
+    <Compile Include="2.4 Class Hierachy\IEnumerable.cs" />
+    <Compile Include="2.4 Class Hierachy\Interfaces.cs" />
+    <Compile Include="2.4 Class Hierachy\IUnknown.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

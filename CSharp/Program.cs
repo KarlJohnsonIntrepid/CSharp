@@ -15,11 +15,9 @@ namespace BoxingAndUnboxing
     {
         static void Main(string[] args)
         {
-            GenericClass.Run();
-
-            GenericClass.Run();
-
-            Console.ReadLine();
+            OverrideMethods.Run();
+        
+           Console.ReadLine();
         }
     }
 

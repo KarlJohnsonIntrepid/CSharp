@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharp._2._1_Types
 {
@@ -11,6 +7,18 @@ namespace CSharp._2._1_Types
         public static void Run()
         {
 
+            var book = new Book();
+            book.Stop();
+
+            PaperBack book2 = new PaperBack();
+            book2.Stop();
+
+            //Here the object is a paperback 
+            //But we are getting the book implementation
+            //As we are using method hiding
+            //This should be avoided
+            Book book3 = new PaperBack();
+            book3.Stop();
         }
     }
 
@@ -28,6 +36,11 @@ namespace CSharp._2._1_Types
         {
             PageNumber++;
         }
+
+        public void Stop()
+        {
+            Console.WriteLine("stop base");
+        }
     }
 
     /// <summary>
@@ -40,6 +53,15 @@ namespace CSharp._2._1_Types
         public PaperBack()
         {
             Damage = 1;
+        }
+
+        /// <summary>
+        /// Her we cant use overide as base does not have virtual
+        /// Using keyword new is method Hiding
+        /// </summary>
+        public new void Stop()
+        {
+            Console.WriteLine("stop derived");
         }
 
         //Use the override key word to turn the page;

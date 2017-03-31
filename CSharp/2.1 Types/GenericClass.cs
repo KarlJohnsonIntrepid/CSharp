@@ -24,7 +24,7 @@ namespace CSharp._2._1_Types
             intArray.SetItem(0, 22);
             int item = intArray.GetItem(0);
             Console.WriteLine(item);
-
+              
             var strArray = new GenericArray<string>(10);
             strArray.SetItem(0, "test");
 
