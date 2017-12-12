@@ -75,6 +75,9 @@
     <Compile Include="2.4 Class Hierachy\IEnumerable.cs" />
     <Compile Include="2.4 Class Hierachy\Interfaces.cs" />
     <Compile Include="2.4 Class Hierachy\IUnknown.cs" />
+    <Compile Include="CSharp6Features\AutoProperties.cs" />
+    <Compile Include="CSharp6Features\NullConditionals.cs" />
+    <Compile Include="CSharp6Features\StaticImport.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
